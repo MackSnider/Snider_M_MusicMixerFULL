@@ -15,12 +15,30 @@
         </header>
             <section class="musicBench">
                 <h2 class="bench">Music Bench</h2>
-            </section>
+        </section>
         <div class="container noSat">
-            <img src="images/kick.png" height="75px" width="1000" alt="kick sound bar" class="draggable kick" draggable="true">
-            <img src="images/crash.png" height="75" width="1000" alt="crash sound bar" class="draggable crash" draggable="true">
-            <img src="images/clap.png" height="75" width="1000" alt="clap sound bar" class="draggable clap" draggable="true">
-            <img src="images/hihat.png" height="75" width="1000" alt="hihat sound bar" class="draggable hihat" draggable="true">
+
+            <div class="draggable kick" draggable="true">
+                <img src="images/kick.png" height="75px" width="1000" alt="kick sound bar">
+                <audio id="kickMP3" loop>
+                    <source src="audio/kick.mp3">
+                </audio>
+            </div>
+
+            <div class="draggable crash" draggable="true">
+                <img src="images/crash.png" height="75" width="1000" alt="crash sound bar">
+                <audio id="crashMP3" loop>
+                    <source src="audio/crash.mp3">   
+                </audio>
+            </div>
+
+              <div class="draggable clap" draggable="true"> 
+                <img src="images/clap.png" height="75" width="1000" alt="clap sound bar">
+            </div>
+
+            <div class="draggable hihat" draggable="true"> 
+                <img src="images/hihat.png" height="75" width="1000" alt="hihat sound bar">
+            </div>
         </div>
         <section class="Music Stage">
             <h2 class="stage">Music Stage</h2>
@@ -28,6 +46,7 @@
           <div class="container">
           </div>
           <script src="js/main.js" defer></script>
+           <script src="js/sounds.js" defer></script>
         </div>
     </body>
 </html>
