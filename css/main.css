@@ -1,0 +1,83 @@
+body {
+  	margin: 0;
+  	background-image: url("../images/crowd.png");
+}
+
+.hidden
+{
+	display: none;
+}
+
+.mainContainer
+{
+	max-width: 1200px;
+/*	background-color: #0F0E15;*/
+	margin-bottom: 50px;
+ 	margin: 0 auto;
+ 	background-color: #fff;
+	border-radius: 50px;
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+.musicIntro img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.container 
+{
+  	background-color: #333;
+ 	padding: 1rem;
+ 	margin-top: 1rem;
+}
+
+.container img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.noSat
+{
+	filter: grayscale(100%);
+}
+
+.kick, .crash, .clap, .hithat
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.kick:hover, .crash:hover, .clap:hover, .hihat:hover
+{
+	transform: scale(0.97); 
+  	transition: transform .3s ease;
+}
+
+.draggable 
+{
+  	cursor: move;
+}
+
+.draggable.dragging 
+{
+  	opacity: .5;
+}
+
+.bench, .stage
+{
+	font-family: arial;
+	text-align: center;
+	font-size: 30px;
+}
+
+.stage
+{
+	margin-top: 50px;
+}
